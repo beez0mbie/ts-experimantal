@@ -1,7 +1,4 @@
 declare module 'extendType'{
-  type X = {
-      A: string;
-      B: string;
-  }
+  type X = string;
   export default X;
 } 

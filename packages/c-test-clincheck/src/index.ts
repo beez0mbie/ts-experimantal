@@ -1,7 +1,7 @@
 
-import { AB } from 'b-test-clincheck';
+import { AX } from 'b-test-clincheck';
 
-const message: AB = { fromA: { A1: '1', A2: 'sdf' } , fromB: 1 }; //fromB muts be string!
+const message: AX = { A: { A1: '1', A2: 'sdf' } , X: 1 }; //X muts be string
 
-console.log(message.fromB);
+console.log(message.X);
 

@@ -5,8 +5,8 @@ const message: A = { A1: '1', A2: 'sdf' };
 
 console.log(message.A1);
 
-export interface AB {
-  fromA: A;
-  fromB: X;
+export interface AX {
+  A: A;
+  X: X;
 }
 
