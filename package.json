@@ -1,6 +1,7 @@
 {
   "name": "ts-experimental",
   "version": "1.0.0",
+  "private": true,
   "repository": "git@github.com:beez0mbie/ts-experimental.git",
   "author": "Alexey Shmelkov <vzhik3268@gmail.com>",
   "license": "MIT",
