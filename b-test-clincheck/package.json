@@ -1,0 +1,25 @@
+{
+  "name": "b-test-clincheck",
+  "version": "1.0.1",
+  "license": "UNLICENSED",
+  "files": [
+    "dist"
+  ],
+  "bin": "src/index",
+  "main": "src/index",
+  "publishConfig": {
+    "main": "dist/index",
+    "bin": "dist/index"
+  },
+  "scripts": {
+    "build": "rm -rf dist && ttsc",
+    "prepack": "yarn build"
+  },
+  "dependencies": {
+    "a-test-clincheck": "*"
+  },
+  "devDependencies": {
+    "@types/node": "14.11.2",
+    "typescript": "3.9.7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ts-experimental",
+  "version": "1.0.0",
+  "repository": "git@github.com:beez0mbie/ts-experimental.git",
+  "author": "Alexey Shmelkov <vzhik3268@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "=14.4.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "dependencies": {
+    "typescript": "3.9.7"
+  }
+}
