@@ -5,5 +5,8 @@
     "composite": true,
     "outDir": "dist",
   },
+  "references": [{
+    "path": "../b-test-clincheck/tsconfig.json"
+  }],
   "include": ["src"]
 }

@@ -1,7 +1,7 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "types": ["node", "a-test-clincheck"],
+    "types": ["node", "a-test-clincheck", "c-test-clincheck"],
     "composite": true,
     "outDir": "dist",
   },
