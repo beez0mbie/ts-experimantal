@@ -12,11 +12,8 @@
     "bin": "dist/index"
   },
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "clean": "rm -rf dist",
     "prepack": "yarn build"
-  },
-  "dependencies": {
-    "b-test-clincheck": "*"
   },
   "devDependencies": {
     "@types/node": "14.11.2",

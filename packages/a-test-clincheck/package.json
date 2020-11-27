@@ -13,7 +13,7 @@
   },
   "types": "src/index.d.ts",
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "clean": "rm -rf dist",
     "prepack": "yarn build"
   },
   "devDependencies": {
